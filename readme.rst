@@ -1,4 +1,4 @@
-DailyCryptoRatings.com
+www.DailyCryptoRatings.com
 
 DailyCryptoRatings.com is a web platform that allows users to rate and review cryptocurrencies on a daily basis. Launched in 2017, the website aims to provide a community-driven rating system to help investors and enthusiasts make informed decisions in the rapidly evolving cryptocurrency market.
 
