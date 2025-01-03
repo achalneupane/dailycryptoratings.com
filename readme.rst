@@ -1,70 +1,111 @@
-###################
-What is CodeIgniter
-###################
+DailyCryptoRatings.com
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+DailyCryptoRatings.com is a web platform that allows users to rate and review cryptocurrencies on a daily basis. Launched in 2017, the website aims to provide a community-driven rating system to help investors and enthusiasts make informed decisions in the rapidly evolving cryptocurrency market.
 
-*******************
-Release Information
-*******************
+Features
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+Daily Ratings: Users can submit ratings for various cryptocurrencies each day, ensuring up-to-date sentiment analysis.
 
-**************************
-Changelog and New Features
-**************************
+User Reviews: In addition to ratings, users can provide detailed reviews to share their insights and opinions.
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+Top Cryptocurrencies: The platform showcases a leaderboard of cryptocurrencies based on user ratings, highlighting the top-performing assets.
 
-*******************
-Server Requirements
-*******************
+Historical Data: Access to past ratings and reviews to observe trends and changes in user sentiment over time.
 
-PHP version 5.6 or newer is recommended.
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+Technologies Used
 
-************
+Frontend: HTML, CSS, JavaScript
+
+Backend: PHP with the CodeIgniter framework
+
+Database: MySQL
+
+
 Installation
-************
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+To set up the project locally:
 
-*******
+1. Clone the repository:
+
+git clone https://github.com/achalneupane/dailycryptoratings.com.git
+
+
+2. Navigate to the project directory:
+
+cd dailycryptoratings.com
+
+
+3. Install dependencies:
+
+Ensure you have Composer installed, then run:
+
+composer install
+
+
+4. Configure the environment:
+
+Rename the env file to .env.
+
+Set up your database credentials and other environment variables in the .env file.
+
+
+
+5. Run database migrations:
+
+php spark migrate
+
+
+6. Start the development server:
+
+php spark serve
+
+The application should now be accessible at http://localhost:8080.
+
+
+
+Usage
+
+Register an Account: Sign up to start rating and reviewing cryptocurrencies.
+
+Submit Ratings: Navigate to a cryptocurrency's page and submit your daily rating.
+
+Write Reviews: Share your insights by writing reviews for different cryptocurrencies.
+
+View Leaderboard: Check the top-rated cryptocurrencies based on community feedback.
+
+
+Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+
+
+2. Create a new branch:
+
+git checkout -b feature-name
+
+
+3. Make your changes.
+
+
+4. Commit your changes:
+
+git commit -m 'Add feature name'
+
+
+5. Push to the branch:
+
+git push origin feature-name
+
+
+6. Open a pull request.
+
+
+
 License
-*******
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-*********
-Resources
-*********
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
